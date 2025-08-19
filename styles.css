@@ -1,2 +1,19 @@
 
 /* Your CSS Code here. */
+.moviePic {
+  width:300px;
+  height:300px;/* required */
+  opacity: 0.7;    /* required */
+  display: block;
+  margin: 20px auto; /* keeps it centered horizontally */
+}
+
+.movieDetail {
+  position: relative;   /* required for "top" to work */
+  top: 20px;            /* moves it slightly down */
+  width: 60%;           /* required */
+  margin: 0 auto;       /* center horizontally */
+  text-align: center;   /* required */
+  font-size: 16px;      /* required */
+  line-height: 1.5;
+}
